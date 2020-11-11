@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/glightbox.min.css">
     <title>Grid Gallery</title>
   </head>
   <body>
@@ -24,7 +25,7 @@
       <h1>Grid Span Gallery</h1>
       <section class="gallery-span">
         <div class="gallery-item w-3">
-          <a href="img/blue light.jpg"
+          <a href="img/blue light.jpg" class="glightbox"
             ><img
               src="img/blue light.jpg"
               alt="dorito bag"
@@ -32,7 +33,7 @@
           /></a>
         </div>
         <div class="gallery-item w-2 h-2">
-          <a href="img/blue.jpg"
+          <a href="img/blue.jpg"class="glightbox"
             ><img
               src="img/blue.jpg"
               alt="annie and lilly in blue"
@@ -40,7 +41,7 @@
           /></a>
         </div>
         <div class="gallery-item">
-          <a href="img/Cyan.jpg"
+          <a href="img/Cyan.jpg"class="glightbox"
             ><img
               src="img/Cyan.jpg"
               alt="trash that is cyan"
@@ -48,7 +49,7 @@
           /></a>
         </div>
         <div class="gallery-item h-2">
-          <a href="img/green .jpg"
+          <a href="img/green .jpg"class="glightbox"
             ><img
               src="img/green .jpg"
               alt="lime bag"
@@ -56,7 +57,7 @@
           /></a>
         </div>
         <div class="gallery-item w-2">
-          <a href="img/light green.jpg"
+          <a href="img/light green.jpg"class="glightbox"
             ><img
               src="img/light green.jpg"
               alt="annie and lilly in green"
@@ -64,7 +65,7 @@
           /></a>
         </div>
         <div class="gallery-item">
-          <a href="img/magenta.jpg"
+          <a href="img/magenta.jpg"class="glightbox"
             ><img
               src="img/magenta.jpg"
               alt="dunkin donut moutain"
@@ -72,7 +73,7 @@
           /></a>
         </div>
         <div class="gallery-item h-3">
-          <a href="img/orange shirt.jpg"
+          <a href="img/orange shirt.jpg"class="glightbox"
             ><img
               src="img/orange shirt.jpg"
               alt="lilly in oragne"
@@ -80,7 +81,7 @@
           /></a>
         </div>
         <div class="gallery-item">
-          <a href="img/pink.jpg"
+          <a href="img/pink.jpg"class="glightbox"
             ><img
               src="img/pink.jpg"
               alt="annie in pink"
@@ -88,7 +89,7 @@
           /></a>
         </div>
         <div class="gallery-item w-2 h-3">
-          <a href="img/purple 2.jpg"
+          <a href="img/purple 2.jpg"class="glightbox"
             ><img
               src="img/purple 2.jpg"
               alt="cleveland orchestra"
@@ -96,7 +97,7 @@
           /></a>
         </div>
         <div class="gallery-item">
-          <a href="img/purple.jpg"
+          <a href="img/purple.jpg"class="glightbox"
             ><img
               src="img/purple.jpg"
               alt="lilly in purple lights"
@@ -104,22 +105,26 @@
           /></a>
         </div>
         <div class="gallery-item h-2 w-2">
-          <a href="img/red clothes.jpg"
+          <a href="img/red clothes.jpg"class="glightbox" data-glightbox="title: My title; description: this is the slide description"
             ><img
               src="img/red clothes.jpg"
-              alt="Menu from the New York Public Library public domain collection"
+              alt="annie in red"
               class="gallery-img"
           /></a>
         </div>
         <div class="gallery-item">
-          <a href="img/yellow.jpg"
+          <a href="img/yellow.jpg"class="glightbox"
             ><img
               src="img/yellow.jpg"
-              alt="Menu from the New York Public Library public domain collection"
+              alt="annie and lilly in yellow"
               class="gallery-img"
           /></a>
         </div>
       </section>
     </main>
+    <script src="js/glightbox.min.js"></script>
+<script type="text/javascript">
+    const lightbox = GLightbox({ loop: true });
+</script>
   </body>
 </html>
